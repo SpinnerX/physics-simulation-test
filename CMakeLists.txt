@@ -7,10 +7,10 @@ build_application(
     application.cpp
 
     PACKAGES
-    glfw3
-    fmt
+    Jolt
 
     LINK_PACKAGES
-    glfw
-    fmt::fmt
+    Jolt::Jolt
 )
+
+generate_compile_commands()
